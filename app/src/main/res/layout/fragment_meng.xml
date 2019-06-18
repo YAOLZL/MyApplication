@@ -16,16 +16,23 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/ed_name"
         android:hint="输入你要解的梦"
         />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/ed_number"
             android:hint="输入数字，默认为1"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/btn_search"
             android:text="搜索"/>
 </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/meng_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
